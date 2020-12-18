@@ -1,5 +1,5 @@
 {
-    "name": "lukasniestroj/cpatainhook-php-cs-fixer",
+    "name": "lukasniestroj/captainhook-php-cs-fixer",
     "type": "captainhook",
     "description": "captainhook plugin to validate php files using php-cs-fixer",
     "license": "MIT",
