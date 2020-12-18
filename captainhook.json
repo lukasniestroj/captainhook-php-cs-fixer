@@ -1,0 +1,21 @@
+{
+  "pre-commit": {
+    "enabled": true,
+    "actions": [
+      {
+        "action": "LukasNiestroj\\CaptainHook\\Hook\\Action\\Fix",
+        "options": {
+          "executable": "vendor/bin/php-cs-fixer",
+          "config-file": ".php_cs"
+        }
+      },
+      {
+        "action": "LukasNiestroj\\CaptainHook\\Hook\\Action\\Validate",
+        "options": {
+          "executable": "vendor/bin/php-cs-fixer",
+          "config-file": ".php_cs"
+        }
+      }
+    ]
+  }
+}

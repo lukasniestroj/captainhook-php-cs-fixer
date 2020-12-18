@@ -1,0 +1,22 @@
+{
+    "name": "lukasniestroj/cpatainhook-php-cs-fixer",
+    "type": "captainhook",
+    "description": "captainhook plugin to validate php files using php-cs-fixer",
+    "license": "MIT",
+    "keywords" : [ "captainhook", "php-cs-fixer", "git", "pre-commit" ],
+    "authors": [
+        {
+            "name": "Lukas Niestroj"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "LukasNiestroj\\CaptainHook\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.2",
+        "captainhook/captainhook": "^5",
+        "friendsofphp/php-cs-fixer": "^2"
+    }
+}
